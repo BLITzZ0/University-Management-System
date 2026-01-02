@@ -1,0 +1,63 @@
+# =========================
+# Root
+# =========================
+node_modules/
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Server (Node / Express)
+# =========================
+Server/node_modules/
+Server/dist/
+Server/build/
+Server/logs/
+Server/*.log
+Server/.env
+
+# =========================
+# Client (React)
+# =========================
+Client/node_modules/
+Client/build/
+Client/dist/
+Client/.env
+Client/.env.*
+
+# =========================
+# Vite / CRA / Next
+# =========================
+Client/.vite/
+Client/.next/
+Client/out/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Coverage
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Security
+# =========================
+*.pem
