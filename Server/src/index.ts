@@ -12,6 +12,12 @@ app.get("/hello",(req,res)=>{
     res.send("hello");
 });
 
+
+app.get("/hello",(req,res)=>{
+    console.log("Hello World");
+    res.send("hello");
+});
+
 app.listen(port,()=>{
     console.log("App is running in port: " + port)
 })
